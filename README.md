@@ -1,4 +1,4 @@
-# Melancia-hubrepeat wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
